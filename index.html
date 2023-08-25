@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Institutia Publica Gimnaziul "Mihai Eminescu"</title>
+    <meta charset="UTF-8" />
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/lightbox.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+</head>
+
+<body>
+
+    <div id="menu-btn" onclick="menu()">
+        <i id="hamburger" class="fas fa-bars"></i>
+        <i id="close" class="fas fa-times hidden"></i>
+    </div>
+
+    <navbar id="side-menu">
+        <div id="menu-logo">
+            <i class="fas fa-graduation-cap"></i>
+        </div>
+        <a href="#despre" onclick="menu()">Despre noi</a>
+        <a href="#merite" onclick="menu()">Merite</a>
+        <a href="#galerie" onclick="menu()">Galerie</a>
+        <a href="#orar" onclick="menu()">Orar</a>
+        <a href="#contacte" onclick="menu()">Contacte</a>
+        <a href="pages/acte.html" onclick="menu()">Acte normative</a>
+        <a href="pages/noutati.html" onclick="menu()">Noutăți</a>
+        <a href="pages/Activitatile.html" onclick="menu()">Activitaile Elevilor</a>
+        <a href="pages/Infrastructura scolii.html" onclick="menu()">Infrastructura scolii</a>
+    </navbar>
+
+    <main id="main">
+        <section id="intro">
+            <div id="intro-content">
+                <h1 data-aos="zoom-in">
+                    I.P. Gimnaziul <br /> "Mihai Eminescu"
+                </h1>
+                <a data-aos="zoom-in" data-aos-delay="500" href="#despre">Află mai mult</a>
+            </div>
+        </section>
+
+        <section id="despre">
+            <div class="centered" data-aos="fade-up">
+                <h1>Despre noi</h1>
+                <p>
+                    IP Gimnaziul ,,Mihai Eminescu,, urmareste sa dezvolte potentialul si aptitudinile elevilor în functie de interesele si motivatiile personale, asigurînd adaptarea absolventilor la cerintele unei societati în continua schimbare.
+                    Ne propunem sa ramînem una din scolile de prestigiu, sa asiguram egalitatea sanselor la educatia tuturor elevilor, sa obtinem rezultate deosebite în activitatea de performanta, sa asiguram ancorarea scolii în comunitatea locala si europeana.
+                </p>
+                <div class="cards">
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="300">
+                        <i class="far fa-check-circle"></i>
+                        <h3>Calitate</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="600">
+                        <i class="fas fa-book"></i>
+                        <h3>Dedicație</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="900">
+                        <i class="fas fa-user-tie"></i>
+                        <h3>Profesionalism</h3>
+                    </div>
+
+                    <div class="card" data-aos="flip-left" data-aos-delay="1200">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Siguranță</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+        <section id="merite">
+            <div class="centered" data-aos="fade-up">
+                <h1>Merite</h1>
+                <i id="trofeu" class="fas fa-trophy" data-aos="flip-left" data-aos-delay="500"></i>
+
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Participant în cadrul proiectului <i>Tekwill În Fiecare Școală</i>
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Locuri de frunte la olimpiada locală
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Locuri de frunte in cadrul concursului international online "iChemist"
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-medal medalie"></i>
+                    Premianți în cadrul concursului <i>Hackhaton 2022</i>
+                </div>
+
+                <div class="slideshow">
+                    <div class="slide">
+                        <div class="nr-slide"> 1/4 </div>
+                        <img src="images/scoala.jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 2/4 </div>
+                        <img src="images/pricipal (1).jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 3/4 </div>
+                        <img src="images/pricipal (2).jpg" />
+                    </div>
+                    <div class="slide">
+                        <div class="nr-slide"> 4/4 </div>
+                        <img src="images/pricipal (3).jpg" />
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="merite">
+            <div class="centered" data-aos="fade-up">
+                <h1>Resurse Umane </h1>
+                    <div class="merit">
+                    <i class=" fas fa-users"></i>
+                    462 elevi</i>
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-"></i>
+                     19 clase
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-school"></i>
+                   10 clase Gimnaziale,9 clase Primare
+                </div>
+
+                <div class="merit">
+                    <i class="fas fa-users"></i>
+                    56 angajati</i>
+                </div>
+                <div class="merit">
+                    <h1>34 cadre didactice dintra care:</h1>
+                    <h3>7 Masterati</h3>
+                    <h3>Grad Didactic Superior-4</h3>
+                    <h3>Grad Didactic I-10</h3>
+                    <h3>Grad Didactic II-12</h3>
+                </div>
+            </div>
+        </section>
+        <section id="galerie">
+            <h1 class="centered">Galerie</h1>
+            <div class="container-galerie">
+                <a href="images/galerie 1.jpg" target="_blank">
+                    <img src="images/galerie 1.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 10.jpg" target="_blank">
+                    <img src="images/galerie 10.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 11.jpg" target="_blank">
+                    <img src="images/galerie 11.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 2].jpg" target="_blank">
+                    <img src="images/galerie 2].jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 6.jpg" target="_blank">
+                    <img src="images/galerie 6.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie.jpg" target="_blank">
+                    <img src="images/galerie.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie3.jpg" target="_blank">
+                    <img src="images/galerie3.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie4.jpg" target="_blank">
+                    <img src="images/galerie4.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie5.jpg" target="_blank">
+                    <img src="images/galerie5.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie7.jpg" target="_blank">
+                    <img src="images/galerie7.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie8.jpg" target="_blank">
+                    <img src="images/galerie8.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie9.jpg" target="_blank">
+                    <img src="images/galerie9.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie13.jpg" target="_blank">
+                    <img src="images/galerie13.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 14.jpg" target="_blank">
+                    <img src="images/galerie 14.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 15.jpg" target="_blank">
+                    <img src="images/galerie 15.jpg" data-aos="flip-up">
+                </a>
+                <a href="images/galerie 16.jpg" target="_blank">
+                    <img src="images/galerie 16.jpg" data-aos="flip-up">
+                </a>
+            </div>
+            
+        </section>
+
+        <section id="orar">
+            <h1 class="centered">Orarul Lectiilor</h1>
+
+            <div class="acordeon">
+                <input type="checkbox" id="clasele primare">
+                <label for="clasele primare"><i class="fas fa-caret-down"></i> Clasele Primare</label>
+
+                <div class="content">
+                    <a href="images/clasele primare.jpg"></a>
+                        <img src="images/clasele primare.jpg" />
+                    </a>
+                </div>
+
+                <input type="checkbox" id="clasele gimnaziale">
+                <label for="clasele gimnaziale"><i class="fas fa-caret-down"></i> Clasele Gimnaziale</label>
+
+                <div class="content">
+                    <a href="images/clasele gimnaziale.png">
+                        <img src="images/clasele gimnaziale.png" />
+                    </a>
+                </div>
+                <input type="checkbox" id="orarul sunetelor">
+                <label for="orarul sunetelor"><i class="fas fa-caret-down"></i> Orarul Sunetelor</label>
+
+                <div class="content">
+                    <a href="images/orarul suetelor.png">
+                        <img src="images/orarul suetelor.png" />
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="contacte">
+
+            <div class="row">
+                <div class="col-50">
+                    <h1 class="centered">Contacte</h1>
+                    <div>
+                        <b>Telefon: </b>
+                        <span>0273</span>
+                    </div>
+                    <div>
+                        <b>Adresa: </b>
+                        <span>Str. Trandafirilor 10</span>
+                    </div>
+                    <div>
+                        <b>Email: </b>
+                        <span>gimnaziucantemir@gmail.com</span>
+                    </div>
+
+                    <div class="formular-container">
+                        <form id="formular">
+                            <h3>Lasă un mesaj</h3>
+                            <input type="text" id="nume" placeholder="Nume" required>
+                            <br />
+                            <input type="text" id="email" placeholder="Email" required>
+                            <br />
+                            <textarea id="mesaj" rows="4" placeholder="Mesaj" required></textarea>
+                            <br />
+                            <input onclick="send()" type="button" id="transmite" value="Transmite">
+                        </form>
+                    </div>
+
+                </div>
+
+                <div class="col-50">
+                    <h1 class="centered">Ne aflăm aici</h1>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2757.3229244304757!2d28.19609992655155!3d46.28355842839809!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b6053ec5dba2e5%3A0x38500f474a1f8622!2sGimnaziul%20Mihai%20Eminescu%2C%20R37%2C%20Cantemir%2C%20Moldova!5e0!3m2!1sro!2s!4v1681834798176!5m2!1sro!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+        </section>
+
+        <footer>
+            <div class="titlu-footer">
+                IP Gimnaziul "Mihai Eminescu"
+            </div>
+            <div class="centered">
+                <a href="https://www.facebook.com/ target=_blank">
+                    <img src="images/fb.png" />
+                </a>
+            </div>
+        </footer>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
